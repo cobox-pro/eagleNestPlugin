@@ -15,7 +15,8 @@ async function copySelectedImagesAsMarkdown() {
 		for (const item of selectedItems) {
 			// 使用图片名称作为alt文本，fileURL作为链接
 			const altText = item.name || '图片';
-			const imageUrl = item.fileURL || item.url || '';
+			// const imageUrl = item.fileURL || item.url || '';
+			const imageUrl = 'http://localhost:8181/eagle/' + item.id + '.png';
 			
 			if (imageUrl) {
 				markdownText += `![${altText}](${imageUrl})\n`;
