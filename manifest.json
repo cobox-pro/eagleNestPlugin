@@ -1,0 +1,15 @@
+{
+    "id": "6ca58d2a-9efe-4c48-a6fe-5e6b5d0c94b9",
+    "version": "1.0.0",
+    "platform": "all",
+    "arch": "all",
+    "name": "eagleNestPlugin",
+    "logo": "/logo.png",
+    "keywords": [],
+    "devTools": false,
+    "main": {
+        "url": "index.html",
+        "width": 640,
+        "height": 480
+    }
+}
