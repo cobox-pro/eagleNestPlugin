@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "platform": "all",
     "arch": "all",
-    "name": "eagleNestPlugin",
+    "name": "Markdown 图片复制器",
+    "description": "将选中的图片URL复制为Markdown格式到剪贴板",
     "logo": "/logo.png",
-    "keywords": [],
+    "keywords": ["markdown", "copy", "clipboard", "image", "url"],
     "devTools": false,
     "main": {
         "url": "index.html",
-        "width": 640,
-        "height": 480
+        "width": 500,
+        "height": 400
     }
 }
